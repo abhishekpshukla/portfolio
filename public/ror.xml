@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for http://www.abhishekpshukla.me/</title>
-  <link>http://www.abhishekpshukla.me/</link>
+  <title>ROR Sitemap for http://www.abhishekshukla.me/</title>
+  <link>http://www.abhishekshukla.me/</link>
 
 <item>
-     <link>http://www.abhishekpshukla.me/</link>
+     <link>http://www.abhishekshukla.me/</link>
      <title>Full Stack Ruby on Rails Developer | Abhishek Shukla</title>
      <description>Full Stack Ruby on Rails Developer | Abhishek Shukla</description>
      <ror:updatePeriod></ror:updatePeriod>
@@ -13,7 +13,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://www.abhishekpshukla.me/Abhishek%20Pradeep%20Shukla.pdf</link>
+     <link>http://www.abhishekshukla.me/Abhishek%20Pradeep%20Shukla.pdf</link>
      <title></title>
      
      <ror:updatePeriod></ror:updatePeriod>
