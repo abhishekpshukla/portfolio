@@ -1,6 +1,9 @@
 version: '2'
 services:
   web:
+    image: portfolio
+    volumes:
+    - $HOME/.aws/credentials:/home/app/.aws/credentials:ro
     build: .
     command: npm start
     volumes:

@@ -1,10 +1,15 @@
-FROM node:8.16.0-alpine
+	FROM node:8.16.0-alpine
 
-WORKDIR /usr/app
+	# Create app directory
+	RUN mkdir -p /usr/app
+	WORKDIR /usr/app
 
-COPY package.json .
-RUN npm install --quiet
-EXPOSE 3000
-COPY . .
+	# Install app dependencies
+	COPY package.json /usr/app
+	RUN npm install
 
-CMD ["npm", "start"]
+	# Bundle app source
+	COPY . /usr/app
+
+	EXPOSE 3000
+	CMD ["npm", "start"]
